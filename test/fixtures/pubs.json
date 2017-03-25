@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "58a8645bf21dc3762074eba6",
+    "name": "Nicholas Nickleby",
+    "address": "Ferme Park Rd",
+    "postcode": "N4 4ED",
+    "website": "http://www.nicholasnickleby.co.uk/",
+    "cheers": 0,
+    "features": {
+      "architecture": true,
+      "beer": true,
+      "fire": false,
+      "food": false,
+      "games": false,
+      "garden": false,
+      "peace": true,
+      "tv": true
+    },
+    "desc": "",
+    "loc": {
+      "type": "Point",
+      "coordinates": [
+        -0.1123477,
+        51.57395589999999
+      ]
+    },
+    "place_id": "ChIJ8ThcZpQbdkgRcwE8lIpSksw"
+  }
+]
