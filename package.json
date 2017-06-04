@@ -4,7 +4,7 @@
   "description": "Microservice to search Shandy Club pubs",
   "main": "index.js",
   "engines": {
-    "node": "~7.6.0"
+    "node": "~8.0.0"
   },
   "repository": "https://github.com/ShandyClub/shandy-club-pub-search.git",
   "author": "Luke Hedger <cheers@shandy.club>",
@@ -13,7 +13,7 @@
     "test": "ava",
     "start": "MONGO_URL=mongodb://127.0.0.1/shandyclub nodemon --exec micro -p 8000",
     "now-start": "micro -p $PORT",
-    "deploy": "now -e NODE_ENV=production -e MONGO_URL=@mongo-shandy && now alias `pbpaste` shandy-club-pub-search"
+    "deploy": "now -e NODE_ENV=production -e MONGO_URL=@mongo-shandy-prod && now alias `pbpaste` shandy-club-pub-search"
   },
   "dependencies": {
     "micro": "^7.2.1",
